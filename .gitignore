@@ -1,0 +1,16 @@
+# Ignore all file
+*
+# Don't ignore if the file has a dot (extension)
+!*.*
+# Don't ignore if it is a directory
+!*/
+# Don't ignore the Makefile
+!Makefile
+# Ignore object files
+*.o
+# Ignore dependency files
+*.d
+# Ignore temporary files
+*.swp
+# Ignore backup files
+*.bak

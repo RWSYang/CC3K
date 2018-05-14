@@ -1,0 +1,32 @@
+Bonus Enemy Types
+  - Witch (H)
+    - Stats(HP:25, Atk:15, Def:5)
+    - When the player is attacked by a witch, they are poisoned and take 5 points of poison damage per turn for 3 turns. Note: the player is damaged by poison the turn Witch attacks
+    - When the witch dies, she will drop a RH potion that the player can use to cure poison. 
+    - Other RH potions can cure poison, it does not necessarily have to drop from the Witch. 
+  - Cerberus (C)
+    - Stats(HP:60, Atk: 30, Def:30)
+    - Upon death spawns 3 Baby Hounds randomly around the player.
+    - If the player is already completely surrounded by things such as items or other monsters, spawns less Baby Hounds.
+  - Baby Hounds (B)
+    - Stats(Hp:20, Atk:10, Def:10)
+    - Only spawns upon the death of a Cerberus enemy type
+    - Once spawned, it will chase the player until the player is out of its radius of 5 units. 
+
+Enemy Special Abilities
+  - Vampire
+    - Leeches 10% life from the player everytime it attacks
+  - Werewolf
+    - Pursues the player if the player is within its radius of 5 units
+  - Goblin 
+    - Steals the ceiling of 10% of the player's gold and runs away
+    - Never attacks the player once it has stolen their gold
+    - Stops running once the player is out of its radius of 5 units
+    - Once the player kills the goblen that stole gold, the player will receive both the gold that was stolen and the 1 dropped from the goblin
+  - Phoenix
+    - Once HP reaches 0, turnes into Ash (displayed as A on the board)
+    - stays in Ash form for seven turns, while in Ash form, players and enemies cannot walk on top of it
+    - after seven turns, respawns and thus it is immortal
+  - Troll
+    - Every turn, regenerates its HP by 5 points, never going above its max HP
+  
